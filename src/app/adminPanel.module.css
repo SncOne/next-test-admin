@@ -1,0 +1,84 @@
+.adminPanel {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    color:#0056b3;
+  }
+  
+  .formContainer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    gap:25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputField {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    font-size: 1rem;
+    color: aqua;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .projectList {
+    display: grid;
+    gap: 20px;
+    color:#0056b3;
+  }
+  
+  .projectCard {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .projectCard h4 {
+    margin-bottom: 8px;
+  }
+  
+  .projectCard p {
+    margin-bottom: 12px;
+  }
+  
+  .projectCard a {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 8px;
+  }
+  
+  .projectCard a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  
+  .projectCard button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .projectCard button:hover {
+    background-color: #c82333;
+  }
+  
